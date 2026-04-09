@@ -1,6 +1,5 @@
-/* Configuración General */
 body {
-    background-color: #0b4f54; /* Fondo verde oscuro azulado */
+    background-color: #0b4f54;
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
@@ -25,13 +24,11 @@ header p {
     opacity: 0.8;
 }
 
-/* Contenedor Principal */
 .container {
     width: 90%;
     max-width: 1000px;
 }
 
-/* Grid de Tarjetas */
 .grid-camaras {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -39,7 +36,6 @@ header p {
     margin-bottom: 30px;
 }
 
-/* Estilo Base de las Tarjetas */
 .card {
     background: rgba(255, 255, 255, 0.1);
     border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -69,20 +65,18 @@ header p {
     font-size: 14px;
 }
 
-/* Colores según Estado */
 .normal {
-    box-shadow: inset 0 0 30px rgba(76, 175, 80, 0.4); /* Resplandor Verde */
+    box-shadow: inset 0 0 30px rgba(76, 175, 80, 0.4); 
 }
 
 .alta {
-    box-shadow: inset 0 0 30px rgba(244, 67, 54, 0.4); /* Resplandor Rojo */
+    box-shadow: inset 0 0 30px rgba(244, 67, 54, 0.4); 
 }
 
 .baja {
-    box-shadow: inset 0 0 30px rgba(255, 235, 59, 0.3); /* Resplandor Amarillo */
+    box-shadow: inset 0 0 30px rgba(255, 235, 59, 0.3);
 }
 
-/* Sección de Historial */
 .historial {
     background: rgba(255, 255, 255, 0.15);
     border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -114,7 +108,6 @@ header p {
     border-bottom: none;
 }
 
-/* Footer */
 footer {
     margin-top: 40px;
     font-size: 12px;
