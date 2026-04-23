@@ -1,5 +1,5 @@
 body {
-    background-color: #0b4f54;
+    background-color: #0f363d;
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
@@ -41,7 +41,7 @@ header p {
     border: 1.5px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     padding: 20px;
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.507);
     text-align: left;
 }
 
@@ -66,15 +66,18 @@ header p {
 }
 
 .normal {
-    box-shadow: inset 0 0 30px rgba(76, 175, 80, 0.4); 
+    box-shadow: inset 0 0 30px rgba(0, 255, 8, 0.377); 
+    background-color: rgba(135, 149, 151, 0.329);
 }
 
 .alta {
-    box-shadow: inset 0 0 30px rgba(244, 67, 54, 0.4); 
+    box-shadow: inset 0 0 30px rgba(255, 17, 0, 0.356);
+    background-color: rgba(135, 149, 151, 0.329); 
 }
 
 .baja {
-    box-shadow: inset 0 0 30px rgba(255, 235, 59, 0.3);
+    box-shadow: inset 0 0 30px rgba(255, 230, 0, 0.342);
+    background-color: rgba(135, 149, 151, 0.329);
 }
 
 .historial {
